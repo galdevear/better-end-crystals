@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "End Crystal Modifications",
+        "description": "",
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:veer",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

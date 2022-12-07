@@ -1,0 +1,51 @@
+{
+    "criteria": {
+      "right_click_with_chorus_fruit": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "looking_at": {
+                    "type": "minecraft:end_crystal"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": [
+              "minecraft:chorus_fruit"
+            ]
+          }
+        }
+      },
+      "cooldown": {
+        "trigger": "minecraft:location"
+      },
+      "isRedundant": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "right_click_with_chorus_fruit"
+      ],
+      [
+        "cooldown"
+      ],
+      [
+        "right_click_with_chorus_fruit",
+        "cooldown",
+        "isRedundant"
+      ]
+    ],
+    "rewards": {
+      "function": "veer:ecf/toggle_exact_tp"
+    }
+  }
+  

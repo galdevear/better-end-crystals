@@ -1,0 +1,8 @@
+tag @s remove veer.ecf.isGlowing
+# Is glowing?
+tag @s[nbt={Glowing:1b}] add veer.ecf.isGlowing
+# Toggle
+#   1 -> 0
+data modify entity @s[tag=veer.ecf.isGlowing] Glowing set value 0b
+#   0 -> 1
+data modify entity @s[tag=!veer.ecf.isGlowing] Glowing set value 1b

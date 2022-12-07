@@ -1,0 +1,2 @@
+advancement revoke @s only veer:ecf/place_ec_on_bedrock
+execute as @e[type=end_crystal,distance=..7, limit=1, sort=nearest] at @s if block ~ ~-1 ~ bedrock if block ~ ~-2 ~ bedrock run data modify entity @s ShowBottom set value 1b

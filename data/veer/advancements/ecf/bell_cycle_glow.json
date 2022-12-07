@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ring_bell":
+        {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {"blocks": ["bell"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+       "function": "veer:ecf/bell_cycle_glow" 
+    }
+}

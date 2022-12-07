@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "channel_target":{
+            "trigger": "target_hit",
+            "conditions": {
+                "projectile": {
+                    "type": "trident",
+                    "nbt": "{Trident:{tag:{Enchantments:[{id:\"minecraft:channeling\"}]}}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:ecf/channel_target"
+    }
+}
