@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "End Crystal Modifications",
-        "description": "",
+        "title": "Better End Crystal",
+        "description": "Channel end crystal beams and reprogram end gateways.",
         "icon": {
             "item": "minecraft:end_crystal"
         },
